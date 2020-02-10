@@ -42,7 +42,7 @@ if !status.retweet? &&
    status.text[-1] == "?"
 
      tweet = {
-       "status" => "@#{status.user.screen_name} " + %w(Sim Não Talvez).sample,
+       "status" => "@#{status.user.screen_name} " + %w(Beba agua).sample,
        "in_reply_to_status_id" => status.id.to_s
      }
 
